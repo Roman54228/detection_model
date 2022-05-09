@@ -42,6 +42,8 @@ Download prepared dataset:
 
 
 ### 3. Training
+  
+Automatically logs mAP, AP_per_class and media files into wandb.
 
 ```bash
 python train.py --data config28.yaml --batch-size 16
