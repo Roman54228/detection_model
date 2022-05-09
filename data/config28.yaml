@@ -1,0 +1,21 @@
+# Example usage: python train.py --data config28.yaml
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/28_classes
+train: # train images (relative to 'path')
+  - images/train2012
+  - images/train2007
+  - images/val2012
+  - images/val2007
+val: # val images (relative to 'path')
+  - images/test2007
+test: # test images (optional)
+  - images/test2007
+
+# Classes
+nc: 28  # number of classes
+names: ['bottle-blue','bottle-green','bottle-dark', 'bottle-milk', 'bottle-transp', 'bottle-multicolor', 'bottle-yogurt', 'bottle-oil',
+       'cans', 'juice-cardboard',  'milk-cardboard', 'detergent-color', 'detergent-transparent','detergent-box','canister','bottle-blue-full',
+       'bottle-transp-full','bottle-dark-full','bottle-green-full','bottle-multicolorv-full','bottle-milk-full',
+       'bottle-oil-full','detergent-white','bottle-blue5l','bottle-blue5l-full','glass-transp', 'glass-dark','glass-green'] # class names
+ 
