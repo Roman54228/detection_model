@@ -32,12 +32,12 @@ Download prepared dataset:
 
 ### 2. Checkpoints
 
-|Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |mAP_5<sup>val<br>0.5:0.95 |mAP_5<sup>val<br>0.5:0.95 |Speed<br><sup>V100 b32<br>(ms) |params<br><sup>(M)|
-|---                    |---  |---    |---    |---    |---    |---    |---    |
-|[YOLOv5x][assets]      |832x448  |28.0   |45.7   |**45** |**6.3**|**0.6**|**1.9**|
-|[YOLOv5x][assets]      |832x448  |37.4   |56.8   |98     |6.4    |0.9    |86.7  |  
-|[YOLOv5x6][assets]      |1280x704  |37.4   |56.8   |98     |6.4    |0.9    |140.7   | 
-|[YOLOv5x6][assets]      |1280x704  |37.4   |56.8   |98     |6.4    |0.9    |140.7   | 
+|Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5  |Speed<br><sup>V100 b32<br>(ms) |params<br><sup>(M)|
+|---                    |---  |---    |---      |---    |---    |
+|[28classes_YOLOv5x](https://drive.google.com/file/d/1MLKcglp6ztW-cmW7E_ohXE00plnaPMxf/view?usp=sharing)      |832x448  |46.9   |59.0  |--|86.7|
+|[5classes_YOLOv5x](https://drive.google.com/file/d/1sXnMCShBicZbrrEuoDWA_cgu_VKyFn88/view?usp=sharing)      |832x448  |40.5   |54.4    |--    |86.7  |  
+|[28classes_YOLOv5x6](https://drive.google.com/file/d/1WG5IDw0e3o-zbT58VPs8tpdF_jiK9yBG/view?usp=sharing)      |1280x704  |41.0   |57.8     |--    |140.7   | 
+
 
 
 
