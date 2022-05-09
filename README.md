@@ -64,6 +64,7 @@ python train.py --data config28.yaml --batch-size 16
 All training results are saved to `runs/train/` with incrementing run directories, i.e. `runs/train/exp2`, `runs/train/exp3` etc.
 Use the largest `--batch-size` possible, or pass `--batch-size -1` for YOLOv5 [AutoBatch](https://github.com/ultralytics/yolov5/pull/5092). 
 
+Modify training hyperpaameters in `data/hyp` - augmentations, optimizer and los.
 ### 4. Evalutation
 
 ```bash
