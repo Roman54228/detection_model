@@ -17,7 +17,7 @@ Usage - formats:
                                       yolov5s.tflite             # TensorFlow Lite
                                       yolov5s_edgetpu.tflite     # TensorFlow Edge TPU
 """
-
+import wandb
 import argparse
 import json
 import os
@@ -271,6 +271,9 @@ def run(
         nt = np.bincount(stats[3].astype(np.int64), minlength=nc)  # number of targets per class
     else:
         nt = torch.zeros(1)
+    # Log AP for every class   
+    for i, c in enumerate(ap_class):
+        wandb.log({"per_class/"+names[c]:ap50[i]})
 
     # Print results
     pf = '%20s' + '%11i' * 2 + '%11.3g' * 4  # print format
