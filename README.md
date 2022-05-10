@@ -73,6 +73,7 @@ Example of mosaic augmentation:
 ```bash
 python val.py --data config28.yaml --weights yolov5x.pt
 ```
+All evaluation results are saved to `runs/val/`
 
 
 
