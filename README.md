@@ -57,7 +57,7 @@ val: # val images (relative to 'path')
 Automatically logs mAP, AP_per_class and media files into wandb.
 Hyperparameters and augmentations written in data/hyps/hyp.scratch-low.yaml, give a flag `--hyp` with a path for your own hyperparameters config
 ```bash
-python train.py --data config28.yaml --batch-size 16 --epochs 300 
+python train.py --data config28.yaml --batch-size 16 --epochs 300 --img 832
 ```
 All training results are saved to `runs/train/` with incrementing run directories, i.e. `runs/train/exp2`, `runs/train/exp3` etc.
 Use the largest `--batch-size` possible, or pass `--batch-size -1` for YOLOv5 [AutoBatch](https://github.com/ultralytics/yolov5/pull/5092). 
