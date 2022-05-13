@@ -65,6 +65,7 @@ Use the largest `--batch-size` possible, or pass `--batch-size -1` for YOLOv5 [A
 Modify training hyperpaameters in `data/hyp` - augmentations, optimizer and loss.
   
 Example of mosaic augmentation:
+![This is an image](https://github.com/Roman54228/detection_model/blob/main/data/train_batch0.jpg)
 
 ### 4. Evalutation
 
