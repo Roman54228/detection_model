@@ -45,8 +45,8 @@ val: # val images (relative to 'path')
 
 |Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5  |Speed<br><sup>V100 bs1<br>(ms) |params<br><sup>(M)|
 |---                    |---  |---    |---      |---    |---    |
-|[28classes_YOLOv5x](https://drive.google.com/file/d/1MLKcglp6ztW-cmW7E_ohXE00plnaPMxf/view?usp=sharing)      |832x448  |46.9   |59.0  |16.7|86.7|
-|[5classes_YOLOv5x](https://drive.google.com/file/d/1sXnMCShBicZbrrEuoDWA_cgu_VKyFn88/view?usp=sharing)      |832x448  |40.5   |54.4    |15.7    |86.7  |  
+|[28classes_YOLOv5x](https://drive.google.com/file/d/1MLKcglp6ztW-cmW7E_ohXE00plnaPMxf/view?usp=sharing)      |832x448  |46.9   |59.0  |21.3|86.7|
+|[5classes_YOLOv5x](https://drive.google.com/file/d/1sXnMCShBicZbrrEuoDWA_cgu_VKyFn88/view?usp=sharing)      |832x448  |40.5   |54.4    |21.0    |86.7  |  
 |[28classes_YOLOv5x6](https://drive.google.com/file/d/1WG5IDw0e3o-zbT58VPs8tpdF_jiK9yBG/view?usp=sharing)      |1280x704  |46.9   |58.40     |26.3    |140.7   | 
 
 
