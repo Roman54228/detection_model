@@ -24,9 +24,9 @@ You need 2 folders: images and `.txt` annotations in yolo format: `class_id cent
 
 All datasets: link 
 
-Used for training: POSAD1(train+val), Test_SPB, Robo, prepared_data_all(train+val), Monitoring_photo
+**Used for training**: POSAD1(train+val), Test_SPB, Robo, prepared_data_all(train+val), Monitoring_photo
 
-Used for evaluation: Test_Monitoring, Test_Monitoring2
+**Used for evaluation**: Test_Monitoring, Test_Monitoring2
 
 Running `train.py`, `eval.py` will scan dataset directory and put everything into `.cache` file which is used for training or eval. It is able to manage images with  no annotations and interpret as there's no objects.
 
